@@ -15,7 +15,7 @@
 
 from grafo import Grafo
 
-g=Grafo()
+g=Grafo(dirigido= False )
 
 #A
 g.insertar_vertice(
@@ -181,8 +181,6 @@ for nodo in arbol_min:
     print(f'{nodo[0]}-{nodo[1]}-{nodo[2]}')
 
 print(f"el peso total es {peso_total}")
-
-
 #D
 
 paises = g.contar_maravillas()
